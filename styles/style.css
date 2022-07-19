@@ -51,8 +51,7 @@ header{
 }
 
 .header-image img{
-    width: 80%;
-
+    width: 120%;
 }
 
 .header-image{
@@ -113,17 +112,17 @@ main{
 .transfers{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-column-gap: 18px;
-    grid-row-gap: 10px;
+    grid-column-gap: 5px;
+    grid-row-gap: 15px;
 }
 
 .transfer .transfer-banner img{
     width: 100%;
-    height: 124px;
+    height: 150px;
 }
 
 .transfer{
-    background-color: #e8e8e8;
+    border: 1px solid rgb(204, 202, 201);
     border-radius: 7px;
 }
 
@@ -153,9 +152,27 @@ main{
 .transfer-duration{
     font-size: 11px;
 }
+
+.hidden-button{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.hidden-button a{
+    background-color: tomato;
+    color: #fff;
+    padding: 14px 22px;
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 45px;
+    text-decoration: none;
+    font-family: inter, sans-serif;
+    letter-spacing: .4px;
+    font-size: 17px;
+}
 footer{
     background-color: #161616;
-    margin-top: 25px;
+    margin-top: 115px;
     max-height: calc(100vh+40px); 
     position: absolute
 }
