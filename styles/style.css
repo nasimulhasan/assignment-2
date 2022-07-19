@@ -80,16 +80,17 @@ main{
     row-gap: 2px;
     align-items: center;
     justify-items: center;
-    background-color: black;
+    background-color: #161616;
     border-radius: 10px;
     width: 20%;
+    height: calc(40vh - 100px);
     margin-right: 5px;
     padding-top: 15px ;
-    padding-bottom: 25px;
+    padding-bottom: 15px;
 }
 
 .leftbar a{
-    background-color: red;
+    background-color: #DD0000;
     border-radius: 7px;
     color: #fff;
     width: 70%;
@@ -122,22 +123,38 @@ main{
 }
 
 .transfer{
-    background-color: gray;
+    background-color: #e8e8e8;
     border-radius: 7px;
+}
+
+.transfer-detail{
+    padding-left: 12px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .transfer-author{
     display: inline;
-    border: 2px solid salmon;
-    border-radius: 6px;
+    border: 1px solid #161616;
+    padding: 2px 12px;
+    border-radius: 4px;
+    font-size: 10px;
 }
 
 .transfer-info{
     display: flex;
 }
 
+.rating{
+    padding-right: 25px;
+    font-size: 11px;
+}
+
+.transfer-duration{
+    font-size: 11px;
+}
 footer{
-    background-color: black;
+    background-color: #161616;
     margin-top: 25px;
     max-height: calc(100vh+40px); 
     position: absolute
