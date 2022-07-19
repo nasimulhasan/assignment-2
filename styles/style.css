@@ -1,0 +1,56 @@
+body{
+    font-family: 'Kanit', sans-serif;
+}
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    color: antiquewhite;
+    background-color: black;
+    border-radius: 10px;
+    margin-left: 95px;
+    margin-right: 95px;
+    margin-top: 50px;
+    padding-left: 80px;
+}
+.header-text{
+    display:block;
+    font-size: 32px;
+}
+
+.header-text a{
+    background-color: tomato;
+    color: #fff;
+    padding: 10px 20px;
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 45px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-family: inter, sans-serif;
+    letter-spacing: .4px;
+    font-size: 12px;
+    animation-name: buttonanimation;
+    animation-duration: 8s;
+}
+
+@keyframes buttonanimation {
+    from {background-color: tomato;}
+    to {background-color: red;}
+  }
+
+
+
+.header-description{
+    font-size: 14px;
+}
+
+.header-image img{
+    width: 50%;
+}
+
+.header-image{
+    width: 50%;
+    position: relative;
+}
