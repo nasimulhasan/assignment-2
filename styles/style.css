@@ -1,16 +1,18 @@
 body{
     font-family: 'Kanit', sans-serif;
+    margin: 0;
 }
 
 
 header{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     color: antiquewhite;
     background-color: black;
     border-radius: 10px;
-    margin-left: 95px;
-    margin-right: 95px;
+    margin-left: 10%;
+    margin-right: 10%;
     margin-top: 50px;
     padding-left: 80px;
 }
@@ -22,7 +24,7 @@ header{
 .header-text a{
     background-color: tomato;
     color: #fff;
-    padding: 10px 20px;
+    padding: 18px 22px;
     display: inline-block;
     margin-top: 20px;
     margin-bottom: 45px;
@@ -30,13 +32,14 @@ header{
     text-decoration: none;
     font-family: inter, sans-serif;
     letter-spacing: .4px;
-    font-size: 12px;
+    font-size: 17px;
     animation-name: buttonanimation;
-    animation-duration: 8s;
+    animation-duration: 3.5s;
+    animation-iteration-count: infinite;
 }
 
 @keyframes buttonanimation {
-    from {background-color: tomato;}
+    from {background-color: green;}
     to {background-color: red;}
   }
 
@@ -47,10 +50,75 @@ header{
 }
 
 .header-image img{
-    width: 50%;
+    width: 60%;
+
 }
 
 .header-image{
     width: 50%;
     position: relative;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 34px;
+}
+
+.container{
+    background-color: aqua;
+    width: 80%;
+    border-radius: 10px;
+}
+
+footer{
+    background-color: black;
+    margin-top: 25px;
+    max-height: calc(100vh+40px); 
+    position: absolute
+}
+
+.footer-text{
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(1, 1fr);
+    color: azure;
+    padding-bottom: 30px;
+    padding-top: 45px;
+}
+
+hr{
+    color: aqua;
+    width: 60%;
+}
+
+.footer-flex{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.footer-flex a{
+    color: rgb(248, 245, 250);
+    text-decoration: none;
+    padding-left: 15px;
+    font-size: 12px;
+}
+
+.footer-flex a:hover{
+    color: red;
+}
+
+.social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+    padding-top: 20px;
+}
+
+.social img{
+    width: 2%;
+    padding-left: 12px;
 }
