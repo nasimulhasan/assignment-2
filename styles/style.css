@@ -276,7 +276,7 @@ hr{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 20px 0;
+    margin: 40px 0px;
     padding-top: 20px;
 }
 
@@ -333,6 +333,7 @@ hr{
         display: flex;
         flex: 3;
         flex-direction: row;
+        row-gap: 10px;
         flex-wrap: wrap;
         justify-content: center;
         margin-top: 40px;
@@ -350,13 +351,26 @@ hr{
         margin: 2px;
       }
       .child2 {
+        display: flex;
         flex-basis: 40%;
         margin: 2px;
+        justify-content: right;
+      }
+      .child3 {
+        display: flex;
+        flex-basis: 40%;
+        margin: 2px;
+        justify-content: left;
       }
     .header-text{
         display: inline;
     }
+    .transfer .transfer-banner img{
+        height: 200px;
+    }
 }
+
+
 @media only screen and (max-width:688px) {
     .container{
         flex-direction: column;
@@ -437,5 +451,8 @@ hr{
     .header-description{
         display:flex;
         text-align: center;
+    }
+    .transfer .transfer-banner img{
+        height: 200px;
     }
 }
