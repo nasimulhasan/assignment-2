@@ -42,8 +42,10 @@ header{
 }
 
 @keyframes buttonanimation {
-    from {background-color: green;}
-    to {background-color: red;}
+    0%   {background-color: red;}
+  25%  {background-color: crimson;}
+  50%  {background-color: blue;}
+  100% {background-color: green;}
   }
 
 
@@ -388,10 +390,7 @@ hr{
     }
 
     .hidden-button{
-        display: flex;
-        justify-content: center;
-        grid-column: 5;
-        margin-top: 50px;
+        display: none;
     }
     .leftbar{
         display: grid;
