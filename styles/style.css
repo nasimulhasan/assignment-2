@@ -150,7 +150,7 @@ main{
 }
 
 .match img{
-    width: 30%;
+    width: 20%;
 }
 
 .match-banner{
@@ -161,6 +161,15 @@ main{
 }
 
 .transfer-detail{
+    display: flex;
+    flex-direction: column;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.match-detail{
     display: flex;
     flex-direction: column;
     padding-left: 12px;
@@ -187,6 +196,7 @@ main{
     padding: 2px 12px;
     border-radius: 4px;
     font-size: 10px;
+    width: 15%;
 }
 
 .transfer-info{
@@ -203,7 +213,7 @@ main{
 }
 
 .hidden-button{
-    display: flex;
+    display: none;
     justify-content: center;
     grid-column: 5;
     margin-top: 50px;
@@ -270,3 +280,27 @@ hr{
     width: 2%;
     padding-left: 12px;
 }
+
+@media only screen and (max-width:688px) {
+    .container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .hidden-button{
+        display: flex;
+        justify-content: center;
+        grid-column: 5;
+        margin-top: 50px;
+    }
+    .leftbar{
+        display: inline-flex;
+        justify-content: center;
+        flex-direction: row;
+        background-color: white;
+    }
+    .leftbar a{
+        margin-left: 5px;
+        border: 1px solid blue;
+    }
+}
+@media only screen and (max-width:688px) {}
