@@ -51,7 +51,7 @@ header{
 }
 
 .header-image img{
-    width: 120%;
+    width: 90%;
 }
 
 .header-image{
@@ -161,6 +161,8 @@ main{
 }
 
 .transfer-detail{
+    display: flex;
+    flex-direction: column;
     padding-left: 12px;
     padding-right: 12px;
     padding-top: 10px;
@@ -175,6 +177,8 @@ main{
 .timing-info{
     display: flex;
     justify-content: center;
+    font-size: 15px;
+    color: gray;
 }
 
 .transfer-author{
