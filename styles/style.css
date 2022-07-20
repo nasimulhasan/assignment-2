@@ -68,6 +68,7 @@ main{
 
 .container{
     display: flex;
+    align-items: flex-start;
     width: 80%;
     justify-content: left;
 }
@@ -82,16 +83,31 @@ main{
     background-color: #161616;
     border-radius: 10px;
     width: 20%;
-    height: calc(40vh - 100px);
     margin-right: 5px;
     padding-top: 15px ;
     padding-bottom: 15px;
 }
 
-.leftbar a{
+.selected{
     background-color: #DD0000;
     border-radius: 7px;
     color: #fff;
+    width: 70%;
+    padding: 10px 10px;
+    display: inline-block;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    font-family: inter, sans-serif;
+    letter-spacing: .4px;
+    font-size: 17px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.unselected{
+    background-color: #fff;
+    border-radius: 7px;
+    color: #161616;
     width: 70%;
     padding: 10px 10px;
     display: inline-block;
