@@ -142,10 +142,39 @@ main{
     border-radius: 7px;
 }
 
+.match{
+    border: 1px solid rgb(204, 202, 201);
+    border-radius: 7px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.match img{
+    width: 30%;
+}
+
+.match-banner{
+    display: flex;
+    widows: 90%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
 .transfer-detail{
     padding-left: 12px;
+    padding-right: 12px;
     padding-top: 10px;
     padding-bottom: 10px;
+}
+
+.match-title{
+    display: flex;
+    justify-content: center;
+}
+
+.timing-info{
+    display: flex;
+    justify-content: center;
 }
 
 .transfer-author{
@@ -172,6 +201,7 @@ main{
 .hidden-button{
     display: flex;
     justify-content: center;
+    grid-column: 5;
     margin-top: 50px;
 }
 .hidden-button a{
