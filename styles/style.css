@@ -282,9 +282,13 @@ hr{
     padding-top: 20px;
 }
 
-.social img{
+.social a{
     width: 2%;
     padding-left: 12px;
+}
+
+.social img{
+    width: 100%;
 }
 
 /*****************
