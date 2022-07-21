@@ -287,6 +287,9 @@ hr{
     padding-left: 12px;
 }
 
+/*****************
+Responsive for tablet devices- code below
+*****************/
 @media only screen and (min-width:688px) and (max-width:992px) {
 
 
@@ -372,7 +375,9 @@ hr{
     }
 }
 
-
+/*****************
+Responsive for mobile devices- code below
+*****************/
 @media only screen and (max-width:688px) {
     .container{
         flex-direction: column;
